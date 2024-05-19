@@ -1,0 +1,55 @@
+.heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:10px;
+  display:inline-block;
+  border-style:solid;
+  border-width:5px;
+  padding:50px;
+  background-color:lightskyblue;
+ 
+}
+  #head2{
+   font-size:50px;
+   font-family:fantasy;
+   padding:20px;
+   
+  }
+  #he1{
+   font-size:50px;
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+  top:-5%;
+  left:47%;
+  transform: translate(-50%,10%);
+  }
+#head1{
+ padding:10px;
+ font-size:35px;
+ font-family:fantasy;
+}
+body{
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  /* background-color: lightblue; */
+  background-image: radial-gradient(black 55%, #0000),
+    /* radial-gradient(black 55%, #0000), */
+      linear-gradient(
+        135deg,
+        red,
+        orange,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        indigo,
+        deeppink
+      );
+  background-size: 100% 0.5%, contain;
+}
+h1{
+ color:#fafafa;
+}
